@@ -1,0 +1,75 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("./src/images/hearts.jfif");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 243, 243);
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  color: rgb(255, 243, 243);
+}
+
+.main {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: cursive, sans-serif;
+  z-index: 3;
+}
+
+.benefits {
+  margin-top: 10px;
+}
+
+.accept,
+.acceptnt,
+.next-button {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  width: 100px;
+  height: 70px;
+  font-size: 30px;
+  font-family: cursive, sans-serif;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.gif {
+  height: 150px;
+  padding: 5px;
+  border-radius: 30%;
+}
+
+.next-button:hover {
+  cursor: pointer;
+}
+
+.acceptnt:hover {
+  cursor: not-allowed;
+}
+
+.accept:hover {
+  cursor: url("./src/images/cursor.cur"), auto;
+}
+
+.success {
+  display: flex;
+}
+
+.offer {
+  display: flex;
+}
